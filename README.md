@@ -2,6 +2,7 @@
 [![Version](https://vsmarketplacebadge.apphb.com/version/EliazBobadilla.python-ultisnippets.svg)](hhttps://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets) [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/EliazBobadilla.python-ultisnippets.svg)](https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets) [![Installs](https://vsmarketplacebadge.apphb.com/installs/EliazBobadilla.python-ultisnippets.svg)](https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets)
 
 This extension contains a lot of Useful Python Snippets for VSCode.
+
 ![](img/python.gif)
 
 ## Snippets
