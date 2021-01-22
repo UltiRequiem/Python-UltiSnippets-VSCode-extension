@@ -22,6 +22,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 |      pyenum      |                    Enum                        |
 |      pyinum      |                  Int Enum                      |
 
+
 | built-in methods code snippets | Description |
 | --- | --- |
 | abs | Returns the absolute value of a number |
