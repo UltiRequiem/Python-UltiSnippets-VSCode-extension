@@ -2,8 +2,7 @@
 
 This extension will contains a lot of Python Snippets for VSCode.
 
-[](python.gif)
-
+![](python.gif)
 ## Snippets
 
 | Snippet Shorcut  |              Snippet Description               |
