@@ -22,6 +22,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 |      pyenum      |                    Enum                        |
 |      pyinum      |                  Int Enum                      |
 
+
 | built-in methods code snippets | Description |
 | --- | --- |
 | abs | Returns the absolute value of a number |
@@ -83,10 +84,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | type | Returns the type of an object |
 | unichr | Return the Unicode string of one character whose Unicode code is the integer i. |
 | vars | Returns the __dict__ property of an object |
-| zip &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;| Returns an iterator, from two or more iterators |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| zip | Returns an iterator, from two or more iterators |
 
 | built-in methods code examples | Description |
 | --- | --- |
@@ -185,10 +183,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | built_in.type=> | An example for using type |
 | built_in.vars=> | An example for using vars |
 | built_in.zip=>_1 | An example for using zip |
-| built_in.zip=>_2 &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;| An example for using zip |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| built_in.zip=>_2 | An example for using zip |
 
 | string methods code snippets | Description |
 | --- | --- |
@@ -232,11 +227,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | .title | Converts the first character of each word to upper case |
 | .translate | Returns a translated string |
 | .upper | Converts a string into upper case |
-| .zfill &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;| Fills the string with a specified number of 0 values at the beginning |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
+| .zfill| Fills the string with a specified number of 0 values at the beginning |
 
 | string methods code examples | Description |
 | --- | --- |
@@ -291,13 +282,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | string.title=> | An example for using title |
 | string.translate=> | An example for using translate |
 | string.upper=> | An example for using upper |
-| string.zfill=>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; | An example for using zfill |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
+| string.zfill=>| An example for using zfill |
 
 | list methods code snippets | Description |
 | --- | --- |
@@ -311,12 +296,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | .pop | Removes the element at the specified position |
 | .remove | Removes the first item with the specified value |
 | .reverse | Reverses the order of the list |
-| .sort&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Sorts the list  |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
+| .sort | Sorts the list  |
 
 | list methods code examples | Description |
 | --- | --- |
@@ -335,13 +315,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | list.comp=>_2 | An example for using list comprehension |
 | list.comp=>_3 | An example for using list comprehension |
 | list.comp=>_4 | An example for using list comprehension |
-| list.comp=>_5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| An example for using list comprehension |
-
-
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| list.comp=>_5 | An example for using list comprehension |
 
 | sets methods code snippets | Description |
 | --- | --- |
@@ -361,11 +335,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | .symmetric_difference | Returns a set with the symmetric differences of two sets |
 | .symmetric_difference_update | inserts the symmetric differences from this set and another |
 | .union | Return a set containing the union of sets |
-| .update &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Update the set with the union of this set and others |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| .update | Update the set with the union of this set and others |
 
 | sets methods code examples | Description |
 | --- | --- |
@@ -392,11 +362,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | sets.symmetric_difference_update=> | An example for using symmetric_difference_update |
 | sets.union=>_1 | An example for using union |
 | sets.union=>_2 | An example for using union |
-| sets.update=> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| An example for using update |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| sets.update=> | An example for using update |
 
 | dictionary methods code snippets | Description |
 | --- | --- |
@@ -410,9 +376,7 @@ This extension will contains a lot of Python Snippets for VSCode.
 | .popitem | Removes the last inserted key-value pai |
 | .setdefault | Returns the value of the specified key. If the key does not exist: insert the key, with the specified value |
 | .update | Updates the dictionary with the specified key-value pairs |
-| .values &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Returns a list of all the values in the dictionary |
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| .values | Returns a list of all the values in the dictionary |
 
 | dictionary methods code examples | Description |
 | --- | --- |
@@ -426,38 +390,17 @@ This extension will contains a lot of Python Snippets for VSCode.
 | dictionary.popitem=> | An example for using popitem |
 | dictionary.setdefault=> | An example for using setdefault |
 | dictionary.update=> | An example for using update |
-| dictionary.values=> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| An example for using values |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
+| dictionary.values=> | An example for using values |
 
 | tuple methods code snippets | Description |
 | --- | --- |
 | .count | Returns the number of times a specified value occurs in a tuple |
-| .index &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Searches the tuple for a specified value and returns the position of where it was found |
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
+| .index | Searches the tuple for a specified value and returns the position of where it was found |
 
 | tuple methods code examples | Description |
 | --- | --- |
 | tuple.count=> | An example for using count |
-| tuple.index=> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| An example for using index |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
-| for loop code snippets | Description |
-| --- | --- |
-| for&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | for Statements |
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
+| tuple.index=>| An example for using index |
 
 | for loop code examples |  |
 | --- | --- |
@@ -469,29 +412,20 @@ This extension will contains a lot of Python Snippets for VSCode.
 | for=>range_function_2 | An example for using for |
 | for=>range_function_3 | An example for using for |
 | for=>for_else | An example for using for |
-| for=>for_else &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| An example for using for |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
-
+| for=>for_else | An example for using for |
 
 | while loop code snippets | Description |
 | --- | --- |
 | while | while Statements |
-| while_else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | while Statements |
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| while_els| while Statements |
+
 
 | while loop code examples | Description |
 | --- | --- |
 | while=> | while Statements |
 | while=>break_statement | while Statements |
-| while=>continue_statement &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| while Statements |
+| while=>continue_statement | while Statements |
 
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
 
 | if/else statement code snippets | Description |
 | --- | --- |
@@ -500,19 +434,14 @@ This extension will contains a lot of Python Snippets for VSCode.
 | ifelifelse | if/else if/else Statements |
 | ifelse | if/else Statements |
 | ifshort | ifshort Statements |
-| else &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| else Statements |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| else | else Statements |
 
 | class code snippets | Description |
 | --- | --- |
 | class=> | python class |
 | __init__=> | class __init__ method |
 | __iter__=> | class __iter__ method |
-| __next__=>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | class __next__ method |
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| __next__=> | class __next__ method |
 
 | class code examples | Description |
 | --- | --- |
@@ -525,28 +454,15 @@ This extension will contains a lot of Python Snippets for VSCode.
 | class=>with_method_1 | class with method example |
 | class=>with_method_2 | class with method example |
 | class=>encapsulation | class encapsulation example |
-| class=>polymorphism &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| class polymorphism example |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
-
+| class=>polymorphism | class polymorphism example |
 
 | import code snippets | Description |
 | --- | --- |
-| import=>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | import module |
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
+| import=>| import module |
 
 | List Comprehensions code snippets | Description |
 | --- | --- |
-| comp=> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|List Comprehensions |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| comp=> |List Comprehensions |
 
 | List Comprehensions code examples | Description |
 | --- | --- |
@@ -556,27 +472,15 @@ This extension will contains a lot of Python Snippets for VSCode.
 | list.comp=>_4 | An example for using list comprehension |
 | list.comp=>_5 | An example for using list comprehension |
 
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
-
 | lambda code examples | Description |
 | --- | --- |
-| lambda &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | A lambda function can take any number of arguments, but can only have one expression.|
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| lambda | A lambda function can take any number of arguments, but can only have one expression.|
 
 | function code snippets | Description |
 | --- | --- |
 | def=> | Defining Function |
 | def=>with_default_value | Defining Function wqith default values |
-| function=> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Defining Function |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| function=> | Defining Function |
 
 | file code examples | Description |
 | --- | --- |
@@ -586,16 +490,9 @@ This extension will contains a lot of Python Snippets for VSCode.
 | file=>writeOwerWrite | Open a file and overwrite the content |
 | file=>createFileIfDoesNotExist | Create a new file if it does not exist |
 | file=>createFile | Create a new file |
-| file=>deleteFile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| delete a file |
-
-
-&nbsp; &nbsp; &nbsp;
-&nbsp; &nbsp; &nbsp;
+| file=>deleteFile| delete a file |
 
 ## License
-
 This project is published under MIT License. Read more [here](./LICENSE)
-
 ## Issues
-
-If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues).
+If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues)
