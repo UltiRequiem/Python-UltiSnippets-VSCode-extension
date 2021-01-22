@@ -1,1899 +1,1914 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Python UltiSnippets VSCode Extension</title>
+    <title>Python UltiSnippets VSCode Extension</title>
 </head>
+
 <body>
-<h1 id="python-ultisnippets">Python UltiSnippets</h1>
-<p><a href="hhttps://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img src="https://vsmarketplacebadge.apphb.com/version/EliazBobadilla.python-ultisnippets.svg" alt="Version"></a> <a href="https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img src="https://vsmarketplacebadge.apphb.com/rating-short/EliazBobadilla.python-ultisnippets.svg" alt="Rating"></a> <a href="https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img src="https://vsmarketplacebadge.apphb.com/installs/EliazBobadilla.python-ultisnippets.svg" alt="Installs"></a></p>
-<p>This extension contains a lot of Useful Python Snippets for VSCode.</p>
-<p><img src="img/python.gif" alt=""></p>
-<h2 id="snippets">Snippets</h2>
-<table>
-<thead>
-<tr>
-<th>Snippet Shorcut</th>
-<th style="text-align:center">Snippet Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>pyif</td>
-<td style="text-align:center">If Statement</td>
-</tr>
-<tr>
-<td>pyfor</td>
-<td style="text-align:center">For loop</td>
-</tr>
-<tr>
-<td>pywhile</td>
-<td style="text-align:center">While loop</td>
-</tr>
-<tr>
-<td>pytry</td>
-<td style="text-align:center">Try Catch Block</td>
-</tr>
-<tr>
-<td>pyfunc</td>
-<td style="text-align:center">Sample Function</td>
-</tr>
-<tr>
-<td>pylambda</td>
-<td style="text-align:center">Lambda Function</td>
-</tr>
-<tr>
-<td>pyclambda</td>
-<td style="text-align:center">Complex Lambda Functions</td>
-</tr>
-<tr>
-<td>pyenv</td>
-<td style="text-align:center">Sample Environment Variable Reader</td>
-</tr>
-<tr>
-<td>pyenvvar</td>
-<td style="text-align:center">Add environment Variable</td>
-</tr>
-<tr>
-<td>pyclass</td>
-<td style="text-align:center">Classes</td>
-</tr>
-<tr>
-<td>pyclfunc</td>
-<td style="text-align:center">Class Functions</td>
-</tr>
-<tr>
-<td>pyenum</td>
-<td style="text-align:center">Enum</td>
-</tr>
-<tr>
-<td>pyinum</td>
-<td style="text-align:center">Int Enum</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>built-in methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>abs</td>
-<td>Returns the absolute value of a number</td>
-</tr>
-<tr>
-<td>all</td>
-<td>Returns True if all items in an iterable object are true</td>
-</tr>
-<tr>
-<td>any</td>
-<td>Returns True if any item in an iterable object is true</td>
-</tr>
-<tr>
-<td>ascii</td>
-<td>Returns a readable version of an object. Replaces none-ascii characters with escape character</td>
-</tr>
-<tr>
-<td>bin</td>
-<td>Returns the binary version of a number</td>
-</tr>
-<tr>
-<td>bool</td>
-<td>Returns the boolean value of the specified object</td>
-</tr>
-<tr>
-<td>bytearray</td>
-<td>Returns an array of bytes</td>
-</tr>
-<tr>
-<td>bytes</td>
-<td>Returns a bytes object</td>
-</tr>
-<tr>
-<td>callable</td>
-<td>Returns True if the specified object is callable, otherwise False</td>
-</tr>
-<tr>
-<td>chr</td>
-<td>Returns a character from the specified Unicode code.</td>
-</tr>
-<tr>
-<td>delattr</td>
-<td>Deletes the specified attribute (property or method) from the specified object</td>
-</tr>
-<tr>
-<td>dict</td>
-<td>Returns a dictionary (Array)</td>
-</tr>
-<tr>
-<td>dir</td>
-<td>Returns a list of the specified object&#39;s properties and methods</td>
-</tr>
-<tr>
-<td>divmod</td>
-<td>Returns the quotient and the remainder when argument1 is divided by argument2</td>
-</tr>
-<tr>
-<td>enumerate</td>
-<td>Takes a collection (e.g. a tuple) and returns it as an enumerate object</td>
-</tr>
-<tr>
-<td>eval</td>
-<td>Evaluates and executes an expression</td>
-</tr>
-<tr>
-<td>exec</td>
-<td>Executes the specified code (or object)</td>
-</tr>
-<tr>
-<td>filter</td>
-<td>Use a filter function to exclude items in an iterable object</td>
-</tr>
-<tr>
-<td>float</td>
-<td>Returns a floating point number</td>
-</tr>
-<tr>
-<td>frozenset</td>
-<td>Returns a frozenset object</td>
-</tr>
-<tr>
-<td>getattr</td>
-<td>Returns the value of the specified attribute (property or method)</td>
-</tr>
-<tr>
-<td>globals</td>
-<td>Returns the current global symbol table as a dictionary</td>
-</tr>
-<tr>
-<td>hasattr</td>
-<td>Returns True if the specified object has the specified attribute (property/method)</td>
-</tr>
-<tr>
-<td>hash</td>
-<td>Returns the hash value of a specified object</td>
-</tr>
-<tr>
-<td>help</td>
-<td>Executes the built-in help system</td>
-</tr>
-<tr>
-<td>hex</td>
-<td>Converts a number into a hexadecimal value</td>
-</tr>
-<tr>
-<td>int</td>
-<td>Returns an integer number</td>
-</tr>
-<tr>
-<td>id</td>
-<td>Returns the id of an object</td>
-</tr>
-<tr>
-<td>input</td>
-<td>Allowing user input</td>
-</tr>
-<tr>
-<td>isinstance</td>
-<td>Returns True if a specified object is an instance of a specified object</td>
-</tr>
-<tr>
-<td>issubclass</td>
-<td>Returns True if a specified class is a subclass of a specified object</td>
-</tr>
-<tr>
-<td>iter</td>
-<td>Returns an iterator object</td>
-</tr>
-<tr>
-<td>len</td>
-<td>Returns the length of an object</td>
-</tr>
-<tr>
-<td>locals</td>
-<td>Returns an updated dictionary of the current local symbol table</td>
-</tr>
-<tr>
-<td>map</td>
-<td>Returns the specified iterator with the specified function applied to each item</td>
-</tr>
-<tr>
-<td>max</td>
-<td>Returns the largest item in an iterable</td>
-</tr>
-<tr>
-<td>memoryview</td>
-<td>Returns a memory view object</td>
-</tr>
-<tr>
-<td>min</td>
-<td>Returns the smallest item in an iterable</td>
-</tr>
-<tr>
-<td>next</td>
-<td>Returns the next item in an iterable</td>
-</tr>
-<tr>
-<td>object</td>
-<td>Returns a new object</td>
-</tr>
-<tr>
-<td>oct</td>
-<td>Converts a number into an octal</td>
-</tr>
-<tr>
-<td>open</td>
-<td>Opens a file and returns a file object</td>
-</tr>
-<tr>
-<td>ord</td>
-<td>Given a string of length one, return an integer representing the Unicode code point of the character when the argument is a unicode object, or the value of the byte when the argument is an 8-bit string.</td>
-</tr>
-<tr>
-<td>pow</td>
-<td>Return x to the power y</td>
-</tr>
-<tr>
-<td>print</td>
-<td>Prints to the standard output device</td>
-</tr>
-<tr>
-<td>property</td>
-<td>Gets, sets, deletes a property</td>
-</tr>
-<tr>
-<td>range</td>
-<td>Returns a sequence of numbers, starting from 0 and increments by 1 (by default)</td>
-</tr>
-<tr>
-<td>repr</td>
-<td>Returns a readable version of an object</td>
-</tr>
-<tr>
-<td>reversed</td>
-<td>Returns a reversed iterator</td>
-</tr>
-<tr>
-<td>round</td>
-<td>Rounds a numbers</td>
-</tr>
-<tr>
-<td>slice</td>
-<td>Returns a slice object</td>
-</tr>
-<tr>
-<td>sorted</td>
-<td>Returns a sorted list</td>
-</tr>
-<tr>
-<td>staticmethod</td>
-<td>Converts a method into a static method</td>
-</tr>
-<tr>
-<td>str</td>
-<td>Returns a string object</td>
-</tr>
-<tr>
-<td>sum</td>
-<td>Sums the items of an iterator</td>
-</tr>
-<tr>
-<td>super</td>
-<td>Return a proxy object that delegates method calls to a parent or sibling class of type.</td>
-</tr>
-<tr>
-<td>type</td>
-<td>Returns the type of an object</td>
-</tr>
-<tr>
-<td>unichr</td>
-<td>Return the Unicode string of one character whose Unicode code is the integer i.</td>
-</tr>
-<tr>
-<td>vars</td>
-<td>Returns the <strong>dict</strong> property of an object</td>
-</tr>
-<tr>
-<td>zip</td>
-<td>Returns an iterator, from two or more iterators</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>built-in methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>built_in.abs=&gt;int</td>
-<td>An example for using abs method</td>
-</tr>
-<tr>
-<td>built_in.abs=&gt;float</td>
-<td>An example for using abs method</td>
-</tr>
-<tr>
-<td>built_in.abs=&gt;complex</td>
-<td>An example for using abs method</td>
-</tr>
-<tr>
-<td>built_in.all=&gt;list_1</td>
-<td>An example for using all with list</td>
-</tr>
-<tr>
-<td>built_in.all=&gt;list_2</td>
-<td>An example for using all with list</td>
-</tr>
-<tr>
-<td>built_in.all=&gt;tuple</td>
-<td>An example for using all with tuple</td>
-</tr>
-<tr>
-<td>built_in.all=&gt;set</td>
-<td>An example for using all with set</td>
-</tr>
-<tr>
-<td>built_in.all=&gt;dictionary</td>
-<td>An example for using all with dictionary</td>
-</tr>
-<tr>
-<td>built_in.any=&gt;list_1</td>
-<td>An example for using all with list</td>
-</tr>
-<tr>
-<td>built_in.ascii=&gt;_list_1</td>
-<td>An example for using ascii</td>
-</tr>
-<tr>
-<td>built_in.bin=&gt;_1</td>
-<td>An example for using ascii</td>
-</tr>
-<tr>
-<td>built_in.bool=&gt;_1</td>
-<td>An example for using bool</td>
-</tr>
-<tr>
-<td>built_in.bytearray=&gt;_1</td>
-<td>An example for using bool</td>
-</tr>
-<tr>
-<td>built_in.bytes=&gt;_1</td>
-<td>An example for using bytes</td>
-</tr>
-<tr>
-<td>built_in.callable=&gt;_1</td>
-<td>An example for using callable</td>
-</tr>
-<tr>
-<td>built_in.callable=&gt;_2</td>
-<td>An example for using bytes</td>
-</tr>
-<tr>
-<td>built_in.chr=&gt;_1</td>
-<td>An example for using bytes</td>
-</tr>
-<tr>
-<td>built_in.compile=&gt;_1</td>
-<td>An example for using compile</td>
-</tr>
-<tr>
-<td>built_in.compile=&gt;_1</td>
-<td>An example for using compile</td>
-</tr>
-<tr>
-<td>built_in.complex=&gt;_1</td>
-<td>An example for using complex</td>
-</tr>
-<tr>
-<td>built_in.complex=&gt;_2</td>
-<td>An example for using complex</td>
-</tr>
-<tr>
-<td>built_in.delattr=&gt;_1</td>
-<td>An example for using delattr</td>
-</tr>
-<tr>
-<td>built_in.dict=&gt;_1</td>
-<td>An example for using dict</td>
-</tr>
-<tr>
-<td>built_in.dir=&gt;</td>
-<td>An example for using dict</td>
-</tr>
-<tr>
-<td>built_in.divmod=&gt;_1</td>
-<td>An example for using divmod</td>
-</tr>
-<tr>
-<td>built_in.enumerate=&gt;_1</td>
-<td>An example for using enumerate</td>
-</tr>
-<tr>
-<td>built_in.eval=&gt;_1</td>
-<td>An example for using eval</td>
-</tr>
-<tr>
-<td>built_in.exec=&gt;_1</td>
-<td>An example for using exec</td>
-</tr>
-<tr>
-<td>built_in.filter=&gt;_1</td>
-<td>An example for using filter</td>
-</tr>
-<tr>
-<td>built_in.float=&gt;_1</td>
-<td>An example for using float</td>
-</tr>
-<tr>
-<td>built_in.float=&gt;_2</td>
-<td>An example for using float</td>
-</tr>
-<tr>
-<td>built_in.format=&gt;_1</td>
-<td>An example for using format</td>
-</tr>
-<tr>
-<td>built_in.frozenset=&gt;_1</td>
-<td>An example for using frozenset</td>
-</tr>
-<tr>
-<td>built_in.frozenset=&gt;_2</td>
-<td>An example for using frozenset</td>
-</tr>
-<tr>
-<td>built_in.frozenset=&gt;_3</td>
-<td>An example for using frozenset</td>
-</tr>
-<tr>
-<td>built_in.globals=&gt;_1</td>
-<td>An example for using globals</td>
-</tr>
-<tr>
-<td>built_in.globals=&gt;_2</td>
-<td>An example for using globals</td>
-</tr>
-<tr>
-<td>built_in.hasattr=&gt;</td>
-<td>An example for using hasattr</td>
-</tr>
-<tr>
-<td>built_in.hex=&gt;</td>
-<td>An example for using hasattr</td>
-</tr>
-<tr>
-<td>built_in.int=&gt;_1</td>
-<td>An example for using int</td>
-</tr>
-<tr>
-<td>built_in.int=&gt;_2</td>
-<td>An example for using int</td>
-</tr>
-<tr>
-<td>built_in.id=&gt;</td>
-<td>An example for using id</td>
-</tr>
-<tr>
-<td>built_in.input=&gt;_1</td>
-<td>An example for using input</td>
-</tr>
-<tr>
-<td>built_in.input=&gt;_2</td>
-<td>An example for using input</td>
-</tr>
-<tr>
-<td>built_in.isinstance=&gt;_1</td>
-<td>An example for using isinstance</td>
-</tr>
-<tr>
-<td>built_in.isinstance=&gt;_2</td>
-<td>An example for using isinstance</td>
-</tr>
-<tr>
-<td>built_in.isinstance=&gt;_3</td>
-<td>An example for using isinstance</td>
-</tr>
-<tr>
-<td>built_in.issubclass=&gt;</td>
-<td>An example for using isinstance</td>
-</tr>
-<tr>
-<td>built_in.iter=&gt;</td>
-<td>An example for using iter</td>
-</tr>
-<tr>
-<td>built_in.len=&gt;_1</td>
-<td>An example for using len</td>
-</tr>
-<tr>
-<td>built_in.len=&gt;_2</td>
-<td>An example for using len</td>
-</tr>
-<tr>
-<td>built_in.list=&gt;</td>
-<td>An example for using list</td>
-</tr>
-<tr>
-<td>built_in.locals=&gt;_1</td>
-<td>An example for using locals</td>
-</tr>
-<tr>
-<td>built_in.locals=&gt;_2</td>
-<td>An example for using locals</td>
-</tr>
-<tr>
-<td>built_in.map=&gt;_1</td>
-<td>An example for using map</td>
-</tr>
-<tr>
-<td>built_in.map=&gt;_2</td>
-<td>An example for using map</td>
-</tr>
-<tr>
-<td>built_in.max=&gt;_1</td>
-<td>An example for using max</td>
-</tr>
-<tr>
-<td>built_in.max=&gt;_2</td>
-<td>An example for using max</td>
-</tr>
-<tr>
-<td>built_in.max=&gt;_3</td>
-<td>An example for using max</td>
-</tr>
-<tr>
-<td>built_in.memoryview=&gt;</td>
-<td>An example for using memoryview</td>
-</tr>
-<tr>
-<td>built_in.min=&gt;_1</td>
-<td>An example for using min</td>
-</tr>
-<tr>
-<td>built_in.min=&gt;_2</td>
-<td>An example for using min</td>
-</tr>
-<tr>
-<td>built_in.min=&gt;_3</td>
-<td>An example for using min</td>
-</tr>
-<tr>
-<td>built_in.next=&gt;_1</td>
-<td>An example for using next</td>
-</tr>
-<tr>
-<td>built_in.next=&gt;_2</td>
-<td>An example for using next</td>
-</tr>
-<tr>
-<td>built_in.object=&gt;</td>
-<td>An example for using object</td>
-</tr>
-<tr>
-<td>built_in.oct=&gt;</td>
-<td>An example for using oct</td>
-</tr>
-<tr>
-<td>built_in.open=&gt;</td>
-<td>An example for using open</td>
-</tr>
-<tr>
-<td>built_in.ord=&gt;</td>
-<td>An example for using ord</td>
-</tr>
-<tr>
-<td>built_in.pow=&gt;</td>
-<td>An example for using pow</td>
-</tr>
-<tr>
-<td>built_in.print=&gt;_1</td>
-<td>An example for using print</td>
-</tr>
-<tr>
-<td>built_in.print=&gt;_2</td>
-<td>An example for using print</td>
-</tr>
-<tr>
-<td>built_in.print=&gt;_3</td>
-<td>An example for using print</td>
-</tr>
-<tr>
-<td>built_in.property=&gt;</td>
-<td>An example for using property</td>
-</tr>
-<tr>
-<td>built_in.range=&gt;_1</td>
-<td>An example for using range</td>
-</tr>
-<tr>
-<td>built_in.range=&gt;_2</td>
-<td>An example for using range</td>
-</tr>
-<tr>
-<td>built_in.range=&gt;_3</td>
-<td>An example for using range</td>
-</tr>
-<tr>
-<td>built_in.reversed=&gt;</td>
-<td>An example for using reversed</td>
-</tr>
-<tr>
-<td>built_in.round=&gt;_1</td>
-<td>An example for using round</td>
-</tr>
-<tr>
-<td>built_in.round=&gt;_2</td>
-<td>An example for using round</td>
-</tr>
-<tr>
-<td>built_in.set=&gt;</td>
-<td>An example for using set</td>
-</tr>
-<tr>
-<td>built_in.setattr=&gt;</td>
-<td>An example for using setattr</td>
-</tr>
-<tr>
-<td>built_in.slice=&gt;_1</td>
-<td>An example for using slice</td>
-</tr>
-<tr>
-<td>built_in.slice=&gt;_2</td>
-<td>An example for using slice</td>
-</tr>
-<tr>
-<td>built_in.slice=&gt;_3</td>
-<td>An example for using slice</td>
-</tr>
-<tr>
-<td>built_in.sorted=&gt;_1</td>
-<td>An example for using sorted</td>
-</tr>
-<tr>
-<td>built_in.sorted=&gt;_2</td>
-<td>An example for using sorted</td>
-</tr>
-<tr>
-<td>built_in.sorted=&gt;_3</td>
-<td>An example for using sorted</td>
-</tr>
-<tr>
-<td>built_in.str=&gt;</td>
-<td>An example for using str</td>
-</tr>
-<tr>
-<td>built_in.sum=&gt;_1</td>
-<td>An example for using sum</td>
-</tr>
-<tr>
-<td>built_in.sum=&gt;_2</td>
-<td>An example for using sum</td>
-</tr>
-<tr>
-<td>built_in.tuple=&gt;</td>
-<td>An example for using tuple</td>
-</tr>
-<tr>
-<td>built_in.type=&gt;</td>
-<td>An example for using type</td>
-</tr>
-<tr>
-<td>built_in.vars=&gt;</td>
-<td>An example for using vars</td>
-</tr>
-<tr>
-<td>built_in.zip=&gt;_1</td>
-<td>An example for using zip</td>
-</tr>
-<tr>
-<td>built_in.zip=&gt;_2</td>
-<td>An example for using zip</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>string methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.capitalize</td>
-<td>Converts the first character to upper case</td>
-</tr>
-<tr>
-<td>.casefold</td>
-<td>Converts string into lower case</td>
-</tr>
-<tr>
-<td>.center</td>
-<td>Returns a centered string</td>
-</tr>
-<tr>
-<td>.count</td>
-<td>Returns the number of times a specified value occurs in a string</td>
-</tr>
-<tr>
-<td>.encode</td>
-<td>Returns an encoded version of the string</td>
-</tr>
-<tr>
-<td>.endswith</td>
-<td>Returns true if the string ends with the specified value</td>
-</tr>
-<tr>
-<td>.expandtabs</td>
-<td>Sets the tab size of the string</td>
-</tr>
-<tr>
-<td>.find</td>
-<td>Searches the string for a specified value and returns the position of where it was found</td>
-</tr>
-<tr>
-<td>.format</td>
-<td>Formats specified values in a string</td>
-</tr>
-<tr>
-<td>.format_map</td>
-<td>Formats specified values in a string</td>
-</tr>
-<tr>
-<td>.index</td>
-<td>Searches the string for a specified value and returns the position of where it was found</td>
-</tr>
-<tr>
-<td>.isalnum</td>
-<td>Returns True if all characters in the string are alphanumeric</td>
-</tr>
-<tr>
-<td>.isalpha</td>
-<td>Returns True if all characters in the string are in the alphabet</td>
-</tr>
-<tr>
-<td>.isdecimal</td>
-<td>Returns True if all characters in the string are decimals</td>
-</tr>
-<tr>
-<td>.isdigit</td>
-<td>Returns True if all characters in the string are digits</td>
-</tr>
-<tr>
-<td>.isidentifier</td>
-<td>Returns True if the string is an identifier</td>
-</tr>
-<tr>
-<td>.islower</td>
-<td>Returns True if all characters in the string are lower case</td>
-</tr>
-<tr>
-<td>.isnumeric</td>
-<td>Returns True if all characters in the string are numeric</td>
-</tr>
-<tr>
-<td>.isprintable</td>
-<td>Returns True if all characters in the string are printable</td>
-</tr>
-<tr>
-<td>.isspace</td>
-<td>Returns True if all characters in the string are whitespaces</td>
-</tr>
-<tr>
-<td>.istitle</td>
-<td>Returns True if the string follows the rules of a title</td>
-</tr>
-<tr>
-<td>.isupper</td>
-<td>Returns True if all characters in the string are upper case</td>
-</tr>
-<tr>
-<td>.join</td>
-<td>Joins the elements of an iterable to the end of the string</td>
-</tr>
-<tr>
-<td>.ljust</td>
-<td>Returns a left justified version of the string</td>
-</tr>
-<tr>
-<td>.lower</td>
-<td>Converts a string into lower case</td>
-</tr>
-<tr>
-<td>.lstrip</td>
-<td>Returns a left trim version of the string</td>
-</tr>
-<tr>
-<td>.maketrans</td>
-<td>Returns a translation table to be used in translations</td>
-</tr>
-<tr>
-<td>.partition</td>
-<td>Returns a tuple where the string is parted into three parts</td>
-</tr>
-<tr>
-<td>.replace</td>
-<td>Returns a string where a specified value is replaced with a specified value</td>
-</tr>
-<tr>
-<td>.rfind</td>
-<td>Searches the string for a specified value and returns the last position of where it was found</td>
-</tr>
-<tr>
-<td>.rindex</td>
-<td>Searches the string for a specified value and returns the last position of where it was found</td>
-</tr>
-<tr>
-<td>.rpartition</td>
-<td>Returns a tuple where the string is parted into three parts</td>
-</tr>
-<tr>
-<td>.rsplit</td>
-<td>Returns a right trim version of the string</td>
-</tr>
-<tr>
-<td>.split</td>
-<td>Splits the string at the specified separator, and returns a list</td>
-</tr>
-<tr>
-<td>.splitlines</td>
-<td>Splits the string at line breaks and returns a list</td>
-</tr>
-<tr>
-<td>.startswith</td>
-<td>Returns true if the string starts with the specified value</td>
-</tr>
-<tr>
-<td>.swapcase</td>
-<td>Swaps cases, lower case becomes upper case and vice versa</td>
-</tr>
-<tr>
-<td>.title</td>
-<td>Converts the first character of each word to upper case</td>
-</tr>
-<tr>
-<td>.translate</td>
-<td>Returns a translated string</td>
-</tr>
-<tr>
-<td>.upper</td>
-<td>Converts a string into upper case</td>
-</tr>
-<tr>
-<td>.zfill</td>
-<td>Fills the string with a specified number of 0 values at the beginning</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>string methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>string.capitalize=&gt;_1</td>
-<td>An example for using capitalize</td>
-</tr>
-<tr>
-<td>string.capitalize=&gt;_2</td>
-<td>An example for using capitalize</td>
-</tr>
-<tr>
-<td>string.casefold=&gt;</td>
-<td>An example for using casefold</td>
-</tr>
-<tr>
-<td>string.center=&gt;_1</td>
-<td>An example for using center</td>
-</tr>
-<tr>
-<td>string.center=&gt;_2</td>
-<td>An example for using center</td>
-</tr>
-<tr>
-<td>string.count=&gt;_1</td>
-<td>An example for using count</td>
-</tr>
-<tr>
-<td>string.count=&gt;_2</td>
-<td>An example for using count</td>
-</tr>
-<tr>
-<td>string.encode=&gt;</td>
-<td>An example for using encode</td>
-</tr>
-<tr>
-<td>string.endswith=&gt;_1</td>
-<td>An example for using endswith</td>
-</tr>
-<tr>
-<td>string.endswith=&gt;_2</td>
-<td>An example for using endswith</td>
-</tr>
-<tr>
-<td>string.expandtabs=&gt;_1</td>
-<td>An example for using expandtabs</td>
-</tr>
-<tr>
-<td>string.expandtabs=&gt;_2</td>
-<td>An example for using expandtabs</td>
-</tr>
-<tr>
-<td>string.find=&gt;_1</td>
-<td>An example for using find</td>
-</tr>
-<tr>
-<td>string.find=&gt;_2</td>
-<td>An example for using find</td>
-</tr>
-<tr>
-<td>string.find=&gt;_3</td>
-<td>An example for using find</td>
-</tr>
-<tr>
-<td>string.find=&gt;_4</td>
-<td>An example for using find</td>
-</tr>
-<tr>
-<td>string.format=&gt;</td>
-<td>An example for using format</td>
-</tr>
-<tr>
-<td>string.format_map=&gt;</td>
-<td>An example for using format_map</td>
-</tr>
-<tr>
-<td>string.index=&gt;_1</td>
-<td>An example for using index</td>
-</tr>
-<tr>
-<td>string.index=&gt;_2</td>
-<td>An example for using index</td>
-</tr>
-<tr>
-<td>string.index=&gt;_3</td>
-<td>An example for using index</td>
-</tr>
-<tr>
-<td>string.index=&gt;_4</td>
-<td>An example for using index</td>
-</tr>
-<tr>
-<td>string.isalnum=&gt;</td>
-<td>An example for using isalnum</td>
-</tr>
-<tr>
-<td>string.isalpha=&gt;</td>
-<td>An example for using isalpha</td>
-</tr>
-<tr>
-<td>string.isdecimal=&gt;</td>
-<td>An example for using isdecimal</td>
-</tr>
-<tr>
-<td>string.isdigit=&gt;</td>
-<td>An example for using isdigit</td>
-</tr>
-<tr>
-<td>string.isidentifier=&gt;</td>
-<td>An example for using isidentifier</td>
-</tr>
-<tr>
-<td>string.islower=&gt;</td>
-<td>An example for using islower</td>
-</tr>
-<tr>
-<td>string.isnumeric=&gt;</td>
-<td>An example for using isnumeric</td>
-</tr>
-<tr>
-<td>string.isprintable=&gt;</td>
-<td>An example for using isprintable</td>
-</tr>
-<tr>
-<td>string.isspace=&gt;</td>
-<td>An example for using isspace</td>
-</tr>
-<tr>
-<td>string.istitle=&gt;</td>
-<td>An example for using istitle</td>
-</tr>
-<tr>
-<td>string.isupper=&gt;</td>
-<td>An example for using isupper</td>
-</tr>
-<tr>
-<td>string.join=&gt;</td>
-<td>An example for using join</td>
-</tr>
-<tr>
-<td>string.ljust=&gt;</td>
-<td>An example for using ljust</td>
-</tr>
-<tr>
-<td>string.lower=&gt;</td>
-<td>An example for using lower</td>
-</tr>
-<tr>
-<td>string.lstrip=&gt;</td>
-<td>An example for using lstrip</td>
-</tr>
-<tr>
-<td>string.maketrans=&gt;</td>
-<td>An example for using maketrans</td>
-</tr>
-<tr>
-<td>string.partition=&gt;</td>
-<td>An example for using partition</td>
-</tr>
-<tr>
-<td>string.replace=&gt;</td>
-<td>An example for using replace</td>
-</tr>
-<tr>
-<td>string.rfind=&gt;</td>
-<td>An example for using rfind</td>
-</tr>
-<tr>
-<td>string.rindex=&gt;</td>
-<td>An example for using rindex</td>
-</tr>
-<tr>
-<td>string.rpartition=&gt;</td>
-<td>An example for using rpartition</td>
-</tr>
-<tr>
-<td>string.rsplit=&gt;</td>
-<td>An example for using rsplit</td>
-</tr>
-<tr>
-<td>string.split=&gt;</td>
-<td>An example for using split</td>
-</tr>
-<tr>
-<td>string.splitlines=&gt;</td>
-<td>An example for using splitlines</td>
-</tr>
-<tr>
-<td>string.startswith=&gt;</td>
-<td>An example for using startswith</td>
-</tr>
-<tr>
-<td>string.swapcase=&gt;</td>
-<td>An example for using swapcase</td>
-</tr>
-<tr>
-<td>string.title=&gt;</td>
-<td>An example for using title</td>
-</tr>
-<tr>
-<td>string.translate=&gt;</td>
-<td>An example for using translate</td>
-</tr>
-<tr>
-<td>string.upper=&gt;</td>
-<td>An example for using upper</td>
-</tr>
-<tr>
-<td>string.zfill=&gt;</td>
-<td>An example for using zfill</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>list methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.append</td>
-<td>Adds an element at the end of the list</td>
-</tr>
-<tr>
-<td>.clear</td>
-<td>Removes all the elements from the list</td>
-</tr>
-<tr>
-<td>.copy</td>
-<td>Returns a copy of the list</td>
-</tr>
-<tr>
-<td>.count</td>
-<td>Returns the number of elements with the specified value</td>
-</tr>
-<tr>
-<td>.extend</td>
-<td>Add the elements of a list (or any iterable), to the end of the current list</td>
-</tr>
-<tr>
-<td>.index</td>
-<td>Returns the index of the first element with the specified value</td>
-</tr>
-<tr>
-<td>.insert</td>
-<td>Adds an element at the specified position</td>
-</tr>
-<tr>
-<td>.pop</td>
-<td>Removes the element at the specified position</td>
-</tr>
-<tr>
-<td>.remove</td>
-<td>Removes the first item with the specified value</td>
-</tr>
-<tr>
-<td>.reverse</td>
-<td>Reverses the order of the list</td>
-</tr>
-<tr>
-<td>.sort</td>
-<td>Sorts the list</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>list methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>list.append=&gt;</td>
-<td>An example for using append</td>
-</tr>
-<tr>
-<td>list.clear=&gt;</td>
-<td>An example for using clear</td>
-</tr>
-<tr>
-<td>list.copy=&gt;</td>
-<td>An example for using copy</td>
-</tr>
-<tr>
-<td>list.count=&gt;</td>
-<td>An example for using count</td>
-</tr>
-<tr>
-<td>list.extend=&gt;</td>
-<td>An example for using extend</td>
-</tr>
-<tr>
-<td>list.index=&gt;</td>
-<td>An example for using index</td>
-</tr>
-<tr>
-<td>list.insert=&gt;</td>
-<td>An example for using insert</td>
-</tr>
-<tr>
-<td>list.pop=&gt;</td>
-<td>An example for using pop</td>
-</tr>
-<tr>
-<td>list.remove=&gt;</td>
-<td>An example for using remove</td>
-</tr>
-<tr>
-<td>list.reverse=&gt;</td>
-<td>An example for using reverse</td>
-</tr>
-<tr>
-<td>list.sort=&gt;</td>
-<td>An example for using sort</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_1</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_2</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_3</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_4</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_5</td>
-<td>An example for using list comprehension</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>sets methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.add</td>
-<td>Adds an element to the set</td>
-</tr>
-<tr>
-<td>.clear</td>
-<td>Removes all the elements from the set</td>
-</tr>
-<tr>
-<td>.copy</td>
-<td>Returns a copy of the set</td>
-</tr>
-<tr>
-<td>.difference</td>
-<td>Returns a set containing the difference between two or more sets</td>
-</tr>
-<tr>
-<td>.difference_update</td>
-<td>Removes the items in this set that are also included in another, specified set</td>
-</tr>
-<tr>
-<td>.discard</td>
-<td>Remove the specified item</td>
-</tr>
-<tr>
-<td>.intersection</td>
-<td>Returns a set, that is the intersection of two other sets</td>
-</tr>
-<tr>
-<td>.intersection_update</td>
-<td>Removes the items in this set that are not present in other, specified set(s)</td>
-</tr>
-<tr>
-<td>.isdisjoint</td>
-<td>Returns whether two sets have a intersection or not</td>
-</tr>
-<tr>
-<td>.issubset</td>
-<td>Returns whether another set contains this set or not</td>
-</tr>
-<tr>
-<td>.issuperset</td>
-<td>Returns whether this set contains another set or not</td>
-</tr>
-<tr>
-<td>.pop</td>
-<td>Removes the specified element</td>
-</tr>
-<tr>
-<td>.remove</td>
-<td>Removes the specified element</td>
-</tr>
-<tr>
-<td>.symmetric_difference</td>
-<td>Returns a set with the symmetric differences of two sets</td>
-</tr>
-<tr>
-<td>.symmetric_difference_update</td>
-<td>inserts the symmetric differences from this set and another</td>
-</tr>
-<tr>
-<td>.union</td>
-<td>Return a set containing the union of sets</td>
-</tr>
-<tr>
-<td>.update</td>
-<td>Update the set with the union of this set and others</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>sets methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>sets.add=&gt;</td>
-<td>An example for using add</td>
-</tr>
-<tr>
-<td>sets.clear=&gt;</td>
-<td>An example for using clear</td>
-</tr>
-<tr>
-<td>sets.copy=&gt;</td>
-<td>An example for using copy</td>
-</tr>
-<tr>
-<td>sets.difference=&gt;_1</td>
-<td>An example for using difference</td>
-</tr>
-<tr>
-<td>sets.difference=&gt;_2</td>
-<td>An example for using difference</td>
-</tr>
-<tr>
-<td>sets.difference_update=&gt;</td>
-<td>An example for using difference_update</td>
-</tr>
-<tr>
-<td>sets.discard=&gt;</td>
-<td>An example for using discard</td>
-</tr>
-<tr>
-<td>sets.intersection=&gt;_1</td>
-<td>An example for using intersection</td>
-</tr>
-<tr>
-<td>sets.intersection=&gt;_2</td>
-<td>An example for using intersection</td>
-</tr>
-<tr>
-<td>sets.intersection_update=&gt;_1</td>
-<td>An example for using intersection_update</td>
-</tr>
-<tr>
-<td>sets.intersection_update=&gt;_2</td>
-<td>An example for using intersection_update</td>
-</tr>
-<tr>
-<td>sets.isdisjoint=&gt;_1</td>
-<td>An example for using isdisjoint</td>
-</tr>
-<tr>
-<td>sets.isdisjoint=&gt;_2</td>
-<td>An example for using isdisjoint</td>
-</tr>
-<tr>
-<td>sets.sets.issubset=&gt;_1</td>
-<td>An example for using issubset</td>
-</tr>
-<tr>
-<td>sets.issubset=&gt;_2</td>
-<td>An example for using issubset</td>
-</tr>
-<tr>
-<td>sets.issuperset=&gt;_1</td>
-<td>An example for using issuperset</td>
-</tr>
-<tr>
-<td>sets.issuperset=&gt;_2</td>
-<td>An example for using issuperset</td>
-</tr>
-<tr>
-<td>sets.pop=&gt;</td>
-<td>An example for using pop</td>
-</tr>
-<tr>
-<td>sets.remove=&gt;</td>
-<td>An example for using remove</td>
-</tr>
-<tr>
-<td>sets.symmetric_difference=&gt;</td>
-<td>An example for using symmetric_difference</td>
-</tr>
-<tr>
-<td>sets.symmetric_difference_update=&gt;</td>
-<td>An example for using symmetric_difference_update</td>
-</tr>
-<tr>
-<td>sets.union=&gt;_1</td>
-<td>An example for using union</td>
-</tr>
-<tr>
-<td>sets.union=&gt;_2</td>
-<td>An example for using union</td>
-</tr>
-<tr>
-<td>sets.update=&gt;</td>
-<td>An example for using update</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>dictionary methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.clear</td>
-<td>Removes all the elements from the dictionary</td>
-</tr>
-<tr>
-<td>.copy</td>
-<td>Returns a copy of the dictionary</td>
-</tr>
-<tr>
-<td>.fromkeys</td>
-<td>Returns a dictionary with the specified keys and values</td>
-</tr>
-<tr>
-<td>.get</td>
-<td>Returns the value of the specified key</td>
-</tr>
-<tr>
-<td>.items</td>
-<td>Returns a list containing the a tuple for each key value pair</td>
-</tr>
-<tr>
-<td>.keys</td>
-<td>Returns a list containing the dictionary&#39;s keys</td>
-</tr>
-<tr>
-<td>.pop</td>
-<td>Removes the element with the specified key</td>
-</tr>
-<tr>
-<td>.popitem</td>
-<td>Removes the last inserted key-value pai</td>
-</tr>
-<tr>
-<td>.setdefault</td>
-<td>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</td>
-</tr>
-<tr>
-<td>.update</td>
-<td>Updates the dictionary with the specified key-value pairs</td>
-</tr>
-<tr>
-<td>.values</td>
-<td>Returns a list of all the values in the dictionary</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>dictionary methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>dictionary.clear=&gt;</td>
-<td>An example for using clear</td>
-</tr>
-<tr>
-<td>dictionary.copy=&gt;</td>
-<td>An example for using copy</td>
-</tr>
-<tr>
-<td>dictionary.fromkeys=&gt;</td>
-<td>An example for using fromkeys</td>
-</tr>
-<tr>
-<td>dictionary.get=&gt;</td>
-<td>An example for using get</td>
-</tr>
-<tr>
-<td>dictionary.items=&gt;</td>
-<td>An example for using items</td>
-</tr>
-<tr>
-<td>dictionary.keys=&gt;</td>
-<td>An example for using keys</td>
-</tr>
-<tr>
-<td>dictionary.pop=&gt;</td>
-<td>An example for using pop</td>
-</tr>
-<tr>
-<td>dictionary.popitem=&gt;</td>
-<td>An example for using popitem</td>
-</tr>
-<tr>
-<td>dictionary.setdefault=&gt;</td>
-<td>An example for using setdefault</td>
-</tr>
-<tr>
-<td>dictionary.update=&gt;</td>
-<td>An example for using update</td>
-</tr>
-<tr>
-<td>dictionary.values=&gt;</td>
-<td>An example for using values</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>tuple methods code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>.count</td>
-<td>Returns the number of times a specified value occurs in a tuple</td>
-</tr>
-<tr>
-<td>.index</td>
-<td>Searches the tuple for a specified value and returns the position of where it was found</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>tuple methods code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>tuple.count=&gt;</td>
-<td>An example for using count</td>
-</tr>
-<tr>
-<td>tuple.index=&gt;</td>
-<td>An example for using index</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>for loop code examples</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>for=&gt;</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;through_a_string</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;break_statement</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;continue_statement</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;range_function_1</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;range_function_2</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;range_function_3</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;for_else</td>
-<td>An example for using for</td>
-</tr>
-<tr>
-<td>for=&gt;for_else</td>
-<td>An example for using for</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>while loop code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>while</td>
-<td>while Statements</td>
-</tr>
-<tr>
-<td>while_els</td>
-<td>while Statements</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>while loop code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>while=&gt;</td>
-<td>while Statements</td>
-</tr>
-<tr>
-<td>while=&gt;break_statement</td>
-<td>while Statements</td>
-</tr>
-<tr>
-<td>while=&gt;continue_statement</td>
-<td>while Statements</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>if/else statement code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>if</td>
-<td>if Statements</td>
-</tr>
-<tr>
-<td>ifelif</td>
-<td>if/else if Statements</td>
-</tr>
-<tr>
-<td>ifelifelse</td>
-<td>if/else if/else Statements</td>
-</tr>
-<tr>
-<td>ifelse</td>
-<td>if/else Statements</td>
-</tr>
-<tr>
-<td>ifshort</td>
-<td>ifshort Statements</td>
-</tr>
-<tr>
-<td>else</td>
-<td>else Statements</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>class code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>class=&gt;</td>
-<td>python class</td>
-</tr>
-<tr>
-<td><strong>init</strong>=&gt;</td>
-<td>class <strong>init</strong> method</td>
-</tr>
-<tr>
-<td><strong>iter</strong>=&gt;</td>
-<td>class <strong>iter</strong> method</td>
-</tr>
-<tr>
-<td><strong>next</strong>=&gt;</td>
-<td>class <strong>next</strong> method</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>class code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>class=&gt;_1</td>
-<td>oop inheritance example</td>
-</tr>
-<tr>
-<td>class=&gt;inheritance_1</td>
-<td>oop inheritance example</td>
-</tr>
-<tr>
-<td>class=&gt;inheritance_2</td>
-<td>oop inheritance example</td>
-</tr>
-<tr>
-<td>class=&gt;with_attribute_1</td>
-<td>class with attribute example</td>
-</tr>
-<tr>
-<td>class=&gt;with_attribute_2</td>
-<td>class with attribute example</td>
-</tr>
-<tr>
-<td>class=&gt;with_attribute_3</td>
-<td>class with attribute example</td>
-</tr>
-<tr>
-<td>class=&gt;with_method_1</td>
-<td>class with method example</td>
-</tr>
-<tr>
-<td>class=&gt;with_method_2</td>
-<td>class with method example</td>
-</tr>
-<tr>
-<td>class=&gt;encapsulation</td>
-<td>class encapsulation example</td>
-</tr>
-<tr>
-<td>class=&gt;polymorphism</td>
-<td>class polymorphism example</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>import code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>import=&gt;</td>
-<td>import module</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>List Comprehensions code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>comp=&gt;</td>
-<td>List Comprehensions</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>List Comprehensions code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>list.comp=&gt;_1</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_2</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_3</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_4</td>
-<td>An example for using list comprehension</td>
-</tr>
-<tr>
-<td>list.comp=&gt;_5</td>
-<td>An example for using list comprehension</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>lambda code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>lambda</td>
-<td>A lambda function can take any number of arguments, but can only have one expression.</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>function code snippets</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>def=&gt;</td>
-<td>Defining Function</td>
-</tr>
-<tr>
-<td>def=&gt;with_default_value</td>
-<td>Defining Function wqith default values</td>
-</tr>
-<tr>
-<td>function=&gt;</td>
-<td>Defining Function</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>file code examples</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>file=&gt;openFile</td>
-<td>open a file</td>
-</tr>
-<tr>
-<td>file=&gt;openFileReadLine</td>
-<td>Read one line of the file</td>
-</tr>
-<tr>
-<td>file=&gt;writeExistFile</td>
-<td>Write to an Existing File</td>
-</tr>
-<tr>
-<td>file=&gt;writeOwerWrite</td>
-<td>Open a file and overwrite the content</td>
-</tr>
-<tr>
-<td>file=&gt;createFileIfDoesNotExist</td>
-<td>Create a new file if it does not exist</td>
-</tr>
-<tr>
-<td>file=&gt;createFile</td>
-<td>Create a new file</td>
-</tr>
-<tr>
-<td>file=&gt;deleteFile</td>
-<td>delete a file</td>
-</tr>
-</tbody>
-</table>
-<h2 id="license">License</h2>
-<p>This project is published under MIT License. Read more <a href="./LICENSE.html">here</a></p>
-<h2 id="issues">Issues</h2>
-<p>If you find any issues, please create them <a href="https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues">here</a></p>
+    <h1 id="python-ultisnippets">Python UltiSnippets</h1>
+    <p><a href="hhttps://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img
+                src="https://vsmarketplacebadge.apphb.com/version/EliazBobadilla.python-ultisnippets.svg"
+                alt="Version"></a> <a
+            href="https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img
+                src="https://vsmarketplacebadge.apphb.com/rating-short/EliazBobadilla.python-ultisnippets.svg"
+                alt="Rating"></a> <a
+            href="https://marketplace.visualstudio.com/items?itemName=EliazBobadilla.python-ultisnippets"><img
+                src="https://vsmarketplacebadge.apphb.com/installs/EliazBobadilla.python-ultisnippets.svg"
+                alt="Installs"></a></p>
+    <p>This extension contains a lot of Useful Python Snippets for VSCode.</p>
+    <p><img src="img/python.gif" alt=""></p>
+    <h2 id="snippets">Snippets</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Snippet Shorcut</th>
+                <th style="text-align:center">Snippet Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>pyif</td>
+                <td style="text-align:center">If Statement</td>
+            </tr>
+            <tr>
+                <td>pyfor</td>
+                <td style="text-align:center">For loop</td>
+            </tr>
+            <tr>
+                <td>pywhile</td>
+                <td style="text-align:center">While loop</td>
+            </tr>
+            <tr>
+                <td>pytry</td>
+                <td style="text-align:center">Try Catch Block</td>
+            </tr>
+            <tr>
+                <td>pyfunc</td>
+                <td style="text-align:center">Sample Function</td>
+            </tr>
+            <tr>
+                <td>pylambda</td>
+                <td style="text-align:center">Lambda Function</td>
+            </tr>
+            <tr>
+                <td>pyclambda</td>
+                <td style="text-align:center">Complex Lambda Functions</td>
+            </tr>
+            <tr>
+                <td>pyenv</td>
+                <td style="text-align:center">Sample Environment Variable Reader</td>
+            </tr>
+            <tr>
+                <td>pyenvvar</td>
+                <td style="text-align:center">Add environment Variable</td>
+            </tr>
+            <tr>
+                <td>pyclass</td>
+                <td style="text-align:center">Classes</td>
+            </tr>
+            <tr>
+                <td>pyclfunc</td>
+                <td style="text-align:center">Class Functions</td>
+            </tr>
+            <tr>
+                <td>pyenum</td>
+                <td style="text-align:center">Enum</td>
+            </tr>
+            <tr>
+                <td>pyinum</td>
+                <td style="text-align:center">Int Enum</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>built-in methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>abs</td>
+                <td>Returns the absolute value of a number</td>
+            </tr>
+            <tr>
+                <td>all</td>
+                <td>Returns True if all items in an iterable object are true</td>
+            </tr>
+            <tr>
+                <td>any</td>
+                <td>Returns True if any item in an iterable object is true</td>
+            </tr>
+            <tr>
+                <td>ascii</td>
+                <td>Returns a readable version of an object. Replaces none-ascii characters with escape character</td>
+            </tr>
+            <tr>
+                <td>bin</td>
+                <td>Returns the binary version of a number</td>
+            </tr>
+            <tr>
+                <td>bool</td>
+                <td>Returns the boolean value of the specified object</td>
+            </tr>
+            <tr>
+                <td>bytearray</td>
+                <td>Returns an array of bytes</td>
+            </tr>
+            <tr>
+                <td>bytes</td>
+                <td>Returns a bytes object</td>
+            </tr>
+            <tr>
+                <td>callable</td>
+                <td>Returns True if the specified object is callable, otherwise False</td>
+            </tr>
+            <tr>
+                <td>chr</td>
+                <td>Returns a character from the specified Unicode code.</td>
+            </tr>
+            <tr>
+                <td>delattr</td>
+                <td>Deletes the specified attribute (property or method) from the specified object</td>
+            </tr>
+            <tr>
+                <td>dict</td>
+                <td>Returns a dictionary (Array)</td>
+            </tr>
+            <tr>
+                <td>dir</td>
+                <td>Returns a list of the specified object&#39;s properties and methods</td>
+            </tr>
+            <tr>
+                <td>divmod</td>
+                <td>Returns the quotient and the remainder when argument1 is divided by argument2</td>
+            </tr>
+            <tr>
+                <td>enumerate</td>
+                <td>Takes a collection (e.g. a tuple) and returns it as an enumerate object</td>
+            </tr>
+            <tr>
+                <td>eval</td>
+                <td>Evaluates and executes an expression</td>
+            </tr>
+            <tr>
+                <td>exec</td>
+                <td>Executes the specified code (or object)</td>
+            </tr>
+            <tr>
+                <td>filter</td>
+                <td>Use a filter function to exclude items in an iterable object</td>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>Returns a floating point number</td>
+            </tr>
+            <tr>
+                <td>frozenset</td>
+                <td>Returns a frozenset object</td>
+            </tr>
+            <tr>
+                <td>getattr</td>
+                <td>Returns the value of the specified attribute (property or method)</td>
+            </tr>
+            <tr>
+                <td>globals</td>
+                <td>Returns the current global symbol table as a dictionary</td>
+            </tr>
+            <tr>
+                <td>hasattr</td>
+                <td>Returns True if the specified object has the specified attribute (property/method)</td>
+            </tr>
+            <tr>
+                <td>hash</td>
+                <td>Returns the hash value of a specified object</td>
+            </tr>
+            <tr>
+                <td>help</td>
+                <td>Executes the built-in help system</td>
+            </tr>
+            <tr>
+                <td>hex</td>
+                <td>Converts a number into a hexadecimal value</td>
+            </tr>
+            <tr>
+                <td>int</td>
+                <td>Returns an integer number</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Returns the id of an object</td>
+            </tr>
+            <tr>
+                <td>input</td>
+                <td>Allowing user input</td>
+            </tr>
+            <tr>
+                <td>isinstance</td>
+                <td>Returns True if a specified object is an instance of a specified object</td>
+            </tr>
+            <tr>
+                <td>issubclass</td>
+                <td>Returns True if a specified class is a subclass of a specified object</td>
+            </tr>
+            <tr>
+                <td>iter</td>
+                <td>Returns an iterator object</td>
+            </tr>
+            <tr>
+                <td>len</td>
+                <td>Returns the length of an object</td>
+            </tr>
+            <tr>
+                <td>locals</td>
+                <td>Returns an updated dictionary of the current local symbol table</td>
+            </tr>
+            <tr>
+                <td>map</td>
+                <td>Returns the specified iterator with the specified function applied to each item</td>
+            </tr>
+            <tr>
+                <td>max</td>
+                <td>Returns the largest item in an iterable</td>
+            </tr>
+            <tr>
+                <td>memoryview</td>
+                <td>Returns a memory view object</td>
+            </tr>
+            <tr>
+                <td>min</td>
+                <td>Returns the smallest item in an iterable</td>
+            </tr>
+            <tr>
+                <td>next</td>
+                <td>Returns the next item in an iterable</td>
+            </tr>
+            <tr>
+                <td>object</td>
+                <td>Returns a new object</td>
+            </tr>
+            <tr>
+                <td>oct</td>
+                <td>Converts a number into an octal</td>
+            </tr>
+            <tr>
+                <td>open</td>
+                <td>Opens a file and returns a file object</td>
+            </tr>
+            <tr>
+                <td>ord</td>
+                <td>Given a string of length one, return an integer representing the Unicode code point of the character
+                    when the argument is a unicode object, or the value of the byte when the argument is an 8-bit
+                    string.</td>
+            </tr>
+            <tr>
+                <td>pow</td>
+                <td>Return x to the power y</td>
+            </tr>
+            <tr>
+                <td>print</td>
+                <td>Prints to the standard output device</td>
+            </tr>
+            <tr>
+                <td>property</td>
+                <td>Gets, sets, deletes a property</td>
+            </tr>
+            <tr>
+                <td>range</td>
+                <td>Returns a sequence of numbers, starting from 0 and increments by 1 (by default)</td>
+            </tr>
+            <tr>
+                <td>repr</td>
+                <td>Returns a readable version of an object</td>
+            </tr>
+            <tr>
+                <td>reversed</td>
+                <td>Returns a reversed iterator</td>
+            </tr>
+            <tr>
+                <td>round</td>
+                <td>Rounds a numbers</td>
+            </tr>
+            <tr>
+                <td>slice</td>
+                <td>Returns a slice object</td>
+            </tr>
+            <tr>
+                <td>sorted</td>
+                <td>Returns a sorted list</td>
+            </tr>
+            <tr>
+                <td>staticmethod</td>
+                <td>Converts a method into a static method</td>
+            </tr>
+            <tr>
+                <td>str</td>
+                <td>Returns a string object</td>
+            </tr>
+            <tr>
+                <td>sum</td>
+                <td>Sums the items of an iterator</td>
+            </tr>
+            <tr>
+                <td>super</td>
+                <td>Return a proxy object that delegates method calls to a parent or sibling class of type.</td>
+            </tr>
+            <tr>
+                <td>type</td>
+                <td>Returns the type of an object</td>
+            </tr>
+            <tr>
+                <td>unichr</td>
+                <td>Return the Unicode string of one character whose Unicode code is the integer i.</td>
+            </tr>
+            <tr>
+                <td>vars</td>
+                <td>Returns the <strong>dict</strong> property of an object</td>
+            </tr>
+            <tr>
+                <td>zip</td>
+                <td>Returns an iterator, from two or more iterators</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>built-in methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>built_in.abs=&gt;int</td>
+                <td>An example for using abs method</td>
+            </tr>
+            <tr>
+                <td>built_in.abs=&gt;float</td>
+                <td>An example for using abs method</td>
+            </tr>
+            <tr>
+                <td>built_in.abs=&gt;complex</td>
+                <td>An example for using abs method</td>
+            </tr>
+            <tr>
+                <td>built_in.all=&gt;list_1</td>
+                <td>An example for using all with list</td>
+            </tr>
+            <tr>
+                <td>built_in.all=&gt;list_2</td>
+                <td>An example for using all with list</td>
+            </tr>
+            <tr>
+                <td>built_in.all=&gt;tuple</td>
+                <td>An example for using all with tuple</td>
+            </tr>
+            <tr>
+                <td>built_in.all=&gt;set</td>
+                <td>An example for using all with set</td>
+            </tr>
+            <tr>
+                <td>built_in.all=&gt;dictionary</td>
+                <td>An example for using all with dictionary</td>
+            </tr>
+            <tr>
+                <td>built_in.any=&gt;list_1</td>
+                <td>An example for using all with list</td>
+            </tr>
+            <tr>
+                <td>built_in.ascii=&gt;_list_1</td>
+                <td>An example for using ascii</td>
+            </tr>
+            <tr>
+                <td>built_in.bin=&gt;_1</td>
+                <td>An example for using ascii</td>
+            </tr>
+            <tr>
+                <td>built_in.bool=&gt;_1</td>
+                <td>An example for using bool</td>
+            </tr>
+            <tr>
+                <td>built_in.bytearray=&gt;_1</td>
+                <td>An example for using bool</td>
+            </tr>
+            <tr>
+                <td>built_in.bytes=&gt;_1</td>
+                <td>An example for using bytes</td>
+            </tr>
+            <tr>
+                <td>built_in.callable=&gt;_1</td>
+                <td>An example for using callable</td>
+            </tr>
+            <tr>
+                <td>built_in.callable=&gt;_2</td>
+                <td>An example for using bytes</td>
+            </tr>
+            <tr>
+                <td>built_in.chr=&gt;_1</td>
+                <td>An example for using bytes</td>
+            </tr>
+            <tr>
+                <td>built_in.compile=&gt;_1</td>
+                <td>An example for using compile</td>
+            </tr>
+            <tr>
+                <td>built_in.compile=&gt;_1</td>
+                <td>An example for using compile</td>
+            </tr>
+            <tr>
+                <td>built_in.complex=&gt;_1</td>
+                <td>An example for using complex</td>
+            </tr>
+            <tr>
+                <td>built_in.complex=&gt;_2</td>
+                <td>An example for using complex</td>
+            </tr>
+            <tr>
+                <td>built_in.delattr=&gt;_1</td>
+                <td>An example for using delattr</td>
+            </tr>
+            <tr>
+                <td>built_in.dict=&gt;_1</td>
+                <td>An example for using dict</td>
+            </tr>
+            <tr>
+                <td>built_in.dir=&gt;</td>
+                <td>An example for using dict</td>
+            </tr>
+            <tr>
+                <td>built_in.divmod=&gt;_1</td>
+                <td>An example for using divmod</td>
+            </tr>
+            <tr>
+                <td>built_in.enumerate=&gt;_1</td>
+                <td>An example for using enumerate</td>
+            </tr>
+            <tr>
+                <td>built_in.eval=&gt;_1</td>
+                <td>An example for using eval</td>
+            </tr>
+            <tr>
+                <td>built_in.exec=&gt;_1</td>
+                <td>An example for using exec</td>
+            </tr>
+            <tr>
+                <td>built_in.filter=&gt;_1</td>
+                <td>An example for using filter</td>
+            </tr>
+            <tr>
+                <td>built_in.float=&gt;_1</td>
+                <td>An example for using float</td>
+            </tr>
+            <tr>
+                <td>built_in.float=&gt;_2</td>
+                <td>An example for using float</td>
+            </tr>
+            <tr>
+                <td>built_in.format=&gt;_1</td>
+                <td>An example for using format</td>
+            </tr>
+            <tr>
+                <td>built_in.frozenset=&gt;_1</td>
+                <td>An example for using frozenset</td>
+            </tr>
+            <tr>
+                <td>built_in.frozenset=&gt;_2</td>
+                <td>An example for using frozenset</td>
+            </tr>
+            <tr>
+                <td>built_in.frozenset=&gt;_3</td>
+                <td>An example for using frozenset</td>
+            </tr>
+            <tr>
+                <td>built_in.globals=&gt;_1</td>
+                <td>An example for using globals</td>
+            </tr>
+            <tr>
+                <td>built_in.globals=&gt;_2</td>
+                <td>An example for using globals</td>
+            </tr>
+            <tr>
+                <td>built_in.hasattr=&gt;</td>
+                <td>An example for using hasattr</td>
+            </tr>
+            <tr>
+                <td>built_in.hex=&gt;</td>
+                <td>An example for using hasattr</td>
+            </tr>
+            <tr>
+                <td>built_in.int=&gt;_1</td>
+                <td>An example for using int</td>
+            </tr>
+            <tr>
+                <td>built_in.int=&gt;_2</td>
+                <td>An example for using int</td>
+            </tr>
+            <tr>
+                <td>built_in.id=&gt;</td>
+                <td>An example for using id</td>
+            </tr>
+            <tr>
+                <td>built_in.input=&gt;_1</td>
+                <td>An example for using input</td>
+            </tr>
+            <tr>
+                <td>built_in.input=&gt;_2</td>
+                <td>An example for using input</td>
+            </tr>
+            <tr>
+                <td>built_in.isinstance=&gt;_1</td>
+                <td>An example for using isinstance</td>
+            </tr>
+            <tr>
+                <td>built_in.isinstance=&gt;_2</td>
+                <td>An example for using isinstance</td>
+            </tr>
+            <tr>
+                <td>built_in.isinstance=&gt;_3</td>
+                <td>An example for using isinstance</td>
+            </tr>
+            <tr>
+                <td>built_in.issubclass=&gt;</td>
+                <td>An example for using isinstance</td>
+            </tr>
+            <tr>
+                <td>built_in.iter=&gt;</td>
+                <td>An example for using iter</td>
+            </tr>
+            <tr>
+                <td>built_in.len=&gt;_1</td>
+                <td>An example for using len</td>
+            </tr>
+            <tr>
+                <td>built_in.len=&gt;_2</td>
+                <td>An example for using len</td>
+            </tr>
+            <tr>
+                <td>built_in.list=&gt;</td>
+                <td>An example for using list</td>
+            </tr>
+            <tr>
+                <td>built_in.locals=&gt;_1</td>
+                <td>An example for using locals</td>
+            </tr>
+            <tr>
+                <td>built_in.locals=&gt;_2</td>
+                <td>An example for using locals</td>
+            </tr>
+            <tr>
+                <td>built_in.map=&gt;_1</td>
+                <td>An example for using map</td>
+            </tr>
+            <tr>
+                <td>built_in.map=&gt;_2</td>
+                <td>An example for using map</td>
+            </tr>
+            <tr>
+                <td>built_in.max=&gt;_1</td>
+                <td>An example for using max</td>
+            </tr>
+            <tr>
+                <td>built_in.max=&gt;_2</td>
+                <td>An example for using max</td>
+            </tr>
+            <tr>
+                <td>built_in.max=&gt;_3</td>
+                <td>An example for using max</td>
+            </tr>
+            <tr>
+                <td>built_in.memoryview=&gt;</td>
+                <td>An example for using memoryview</td>
+            </tr>
+            <tr>
+                <td>built_in.min=&gt;_1</td>
+                <td>An example for using min</td>
+            </tr>
+            <tr>
+                <td>built_in.min=&gt;_2</td>
+                <td>An example for using min</td>
+            </tr>
+            <tr>
+                <td>built_in.min=&gt;_3</td>
+                <td>An example for using min</td>
+            </tr>
+            <tr>
+                <td>built_in.next=&gt;_1</td>
+                <td>An example for using next</td>
+            </tr>
+            <tr>
+                <td>built_in.next=&gt;_2</td>
+                <td>An example for using next</td>
+            </tr>
+            <tr>
+                <td>built_in.object=&gt;</td>
+                <td>An example for using object</td>
+            </tr>
+            <tr>
+                <td>built_in.oct=&gt;</td>
+                <td>An example for using oct</td>
+            </tr>
+            <tr>
+                <td>built_in.open=&gt;</td>
+                <td>An example for using open</td>
+            </tr>
+            <tr>
+                <td>built_in.ord=&gt;</td>
+                <td>An example for using ord</td>
+            </tr>
+            <tr>
+                <td>built_in.pow=&gt;</td>
+                <td>An example for using pow</td>
+            </tr>
+            <tr>
+                <td>built_in.print=&gt;_1</td>
+                <td>An example for using print</td>
+            </tr>
+            <tr>
+                <td>built_in.print=&gt;_2</td>
+                <td>An example for using print</td>
+            </tr>
+            <tr>
+                <td>built_in.print=&gt;_3</td>
+                <td>An example for using print</td>
+            </tr>
+            <tr>
+                <td>built_in.property=&gt;</td>
+                <td>An example for using property</td>
+            </tr>
+            <tr>
+                <td>built_in.range=&gt;_1</td>
+                <td>An example for using range</td>
+            </tr>
+            <tr>
+                <td>built_in.range=&gt;_2</td>
+                <td>An example for using range</td>
+            </tr>
+            <tr>
+                <td>built_in.range=&gt;_3</td>
+                <td>An example for using range</td>
+            </tr>
+            <tr>
+                <td>built_in.reversed=&gt;</td>
+                <td>An example for using reversed</td>
+            </tr>
+            <tr>
+                <td>built_in.round=&gt;_1</td>
+                <td>An example for using round</td>
+            </tr>
+            <tr>
+                <td>built_in.round=&gt;_2</td>
+                <td>An example for using round</td>
+            </tr>
+            <tr>
+                <td>built_in.set=&gt;</td>
+                <td>An example for using set</td>
+            </tr>
+            <tr>
+                <td>built_in.setattr=&gt;</td>
+                <td>An example for using setattr</td>
+            </tr>
+            <tr>
+                <td>built_in.slice=&gt;_1</td>
+                <td>An example for using slice</td>
+            </tr>
+            <tr>
+                <td>built_in.slice=&gt;_2</td>
+                <td>An example for using slice</td>
+            </tr>
+            <tr>
+                <td>built_in.slice=&gt;_3</td>
+                <td>An example for using slice</td>
+            </tr>
+            <tr>
+                <td>built_in.sorted=&gt;_1</td>
+                <td>An example for using sorted</td>
+            </tr>
+            <tr>
+                <td>built_in.sorted=&gt;_2</td>
+                <td>An example for using sorted</td>
+            </tr>
+            <tr>
+                <td>built_in.sorted=&gt;_3</td>
+                <td>An example for using sorted</td>
+            </tr>
+            <tr>
+                <td>built_in.str=&gt;</td>
+                <td>An example for using str</td>
+            </tr>
+            <tr>
+                <td>built_in.sum=&gt;_1</td>
+                <td>An example for using sum</td>
+            </tr>
+            <tr>
+                <td>built_in.sum=&gt;_2</td>
+                <td>An example for using sum</td>
+            </tr>
+            <tr>
+                <td>built_in.tuple=&gt;</td>
+                <td>An example for using tuple</td>
+            </tr>
+            <tr>
+                <td>built_in.type=&gt;</td>
+                <td>An example for using type</td>
+            </tr>
+            <tr>
+                <td>built_in.vars=&gt;</td>
+                <td>An example for using vars</td>
+            </tr>
+            <tr>
+                <td>built_in.zip=&gt;_1</td>
+                <td>An example for using zip</td>
+            </tr>
+            <tr>
+                <td>built_in.zip=&gt;_2</td>
+                <td>An example for using zip</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>string methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>.capitalize</td>
+                <td>Converts the first character to upper case</td>
+            </tr>
+            <tr>
+                <td>.casefold</td>
+                <td>Converts string into lower case</td>
+            </tr>
+            <tr>
+                <td>.center</td>
+                <td>Returns a centered string</td>
+            </tr>
+            <tr>
+                <td>.count</td>
+                <td>Returns the number of times a specified value occurs in a string</td>
+            </tr>
+            <tr>
+                <td>.encode</td>
+                <td>Returns an encoded version of the string</td>
+            </tr>
+            <tr>
+                <td>.endswith</td>
+                <td>Returns true if the string ends with the specified value</td>
+            </tr>
+            <tr>
+                <td>.expandtabs</td>
+                <td>Sets the tab size of the string</td>
+            </tr>
+            <tr>
+                <td>.find</td>
+                <td>Searches the string for a specified value and returns the position of where it was found</td>
+            </tr>
+            <tr>
+                <td>.format</td>
+                <td>Formats specified values in a string</td>
+            </tr>
+            <tr>
+                <td>.format_map</td>
+                <td>Formats specified values in a string</td>
+            </tr>
+            <tr>
+                <td>.index</td>
+                <td>Searches the string for a specified value and returns the position of where it was found</td>
+            </tr>
+            <tr>
+                <td>.isalnum</td>
+                <td>Returns True if all characters in the string are alphanumeric</td>
+            </tr>
+            <tr>
+                <td>.isalpha</td>
+                <td>Returns True if all characters in the string are in the alphabet</td>
+            </tr>
+            <tr>
+                <td>.isdecimal</td>
+                <td>Returns True if all characters in the string are decimals</td>
+            </tr>
+            <tr>
+                <td>.isdigit</td>
+                <td>Returns True if all characters in the string are digits</td>
+            </tr>
+            <tr>
+                <td>.isidentifier</td>
+                <td>Returns True if the string is an identifier</td>
+            </tr>
+            <tr>
+                <td>.islower</td>
+                <td>Returns True if all characters in the string are lower case</td>
+            </tr>
+            <tr>
+                <td>.isnumeric</td>
+                <td>Returns True if all characters in the string are numeric</td>
+            </tr>
+            <tr>
+                <td>.isprintable</td>
+                <td>Returns True if all characters in the string are printable</td>
+            </tr>
+            <tr>
+                <td>.isspace</td>
+                <td>Returns True if all characters in the string are whitespaces</td>
+            </tr>
+            <tr>
+                <td>.istitle</td>
+                <td>Returns True if the string follows the rules of a title</td>
+            </tr>
+            <tr>
+                <td>.isupper</td>
+                <td>Returns True if all characters in the string are upper case</td>
+            </tr>
+            <tr>
+                <td>.join</td>
+                <td>Joins the elements of an iterable to the end of the string</td>
+            </tr>
+            <tr>
+                <td>.ljust</td>
+                <td>Returns a left justified version of the string</td>
+            </tr>
+            <tr>
+                <td>.lower</td>
+                <td>Converts a string into lower case</td>
+            </tr>
+            <tr>
+                <td>.lstrip</td>
+                <td>Returns a left trim version of the string</td>
+            </tr>
+            <tr>
+                <td>.maketrans</td>
+                <td>Returns a translation table to be used in translations</td>
+            </tr>
+            <tr>
+                <td>.partition</td>
+                <td>Returns a tuple where the string is parted into three parts</td>
+            </tr>
+            <tr>
+                <td>.replace</td>
+                <td>Returns a string where a specified value is replaced with a specified value</td>
+            </tr>
+            <tr>
+                <td>.rfind</td>
+                <td>Searches the string for a specified value and returns the last position of where it was found</td>
+            </tr>
+            <tr>
+                <td>.rindex</td>
+                <td>Searches the string for a specified value and returns the last position of where it was found</td>
+            </tr>
+            <tr>
+                <td>.rpartition</td>
+                <td>Returns a tuple where the string is parted into three parts</td>
+            </tr>
+            <tr>
+                <td>.rsplit</td>
+                <td>Returns a right trim version of the string</td>
+            </tr>
+            <tr>
+                <td>.split</td>
+                <td>Splits the string at the specified separator, and returns a list</td>
+            </tr>
+            <tr>
+                <td>.splitlines</td>
+                <td>Splits the string at line breaks and returns a list</td>
+            </tr>
+            <tr>
+                <td>.startswith</td>
+                <td>Returns true if the string starts with the specified value</td>
+            </tr>
+            <tr>
+                <td>.swapcase</td>
+                <td>Swaps cases, lower case becomes upper case and vice versa</td>
+            </tr>
+            <tr>
+                <td>.title</td>
+                <td>Converts the first character of each word to upper case</td>
+            </tr>
+            <tr>
+                <td>.translate</td>
+                <td>Returns a translated string</td>
+            </tr>
+            <tr>
+                <td>.upper</td>
+                <td>Converts a string into upper case</td>
+            </tr>
+            <tr>
+                <td>.zfill</td>
+                <td>Fills the string with a specified number of 0 values at the beginning</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>string methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>string.capitalize=&gt;_1</td>
+                <td>An example for using capitalize</td>
+            </tr>
+            <tr>
+                <td>string.capitalize=&gt;_2</td>
+                <td>An example for using capitalize</td>
+            </tr>
+            <tr>
+                <td>string.casefold=&gt;</td>
+                <td>An example for using casefold</td>
+            </tr>
+            <tr>
+                <td>string.center=&gt;_1</td>
+                <td>An example for using center</td>
+            </tr>
+            <tr>
+                <td>string.center=&gt;_2</td>
+                <td>An example for using center</td>
+            </tr>
+            <tr>
+                <td>string.count=&gt;_1</td>
+                <td>An example for using count</td>
+            </tr>
+            <tr>
+                <td>string.count=&gt;_2</td>
+                <td>An example for using count</td>
+            </tr>
+            <tr>
+                <td>string.encode=&gt;</td>
+                <td>An example for using encode</td>
+            </tr>
+            <tr>
+                <td>string.endswith=&gt;_1</td>
+                <td>An example for using endswith</td>
+            </tr>
+            <tr>
+                <td>string.endswith=&gt;_2</td>
+                <td>An example for using endswith</td>
+            </tr>
+            <tr>
+                <td>string.expandtabs=&gt;_1</td>
+                <td>An example for using expandtabs</td>
+            </tr>
+            <tr>
+                <td>string.expandtabs=&gt;_2</td>
+                <td>An example for using expandtabs</td>
+            </tr>
+            <tr>
+                <td>string.find=&gt;_1</td>
+                <td>An example for using find</td>
+            </tr>
+            <tr>
+                <td>string.find=&gt;_2</td>
+                <td>An example for using find</td>
+            </tr>
+            <tr>
+                <td>string.find=&gt;_3</td>
+                <td>An example for using find</td>
+            </tr>
+            <tr>
+                <td>string.find=&gt;_4</td>
+                <td>An example for using find</td>
+            </tr>
+            <tr>
+                <td>string.format=&gt;</td>
+                <td>An example for using format</td>
+            </tr>
+            <tr>
+                <td>string.format_map=&gt;</td>
+                <td>An example for using format_map</td>
+            </tr>
+            <tr>
+                <td>string.index=&gt;_1</td>
+                <td>An example for using index</td>
+            </tr>
+            <tr>
+                <td>string.index=&gt;_2</td>
+                <td>An example for using index</td>
+            </tr>
+            <tr>
+                <td>string.index=&gt;_3</td>
+                <td>An example for using index</td>
+            </tr>
+            <tr>
+                <td>string.index=&gt;_4</td>
+                <td>An example for using index</td>
+            </tr>
+            <tr>
+                <td>string.isalnum=&gt;</td>
+                <td>An example for using isalnum</td>
+            </tr>
+            <tr>
+                <td>string.isalpha=&gt;</td>
+                <td>An example for using isalpha</td>
+            </tr>
+            <tr>
+                <td>string.isdecimal=&gt;</td>
+                <td>An example for using isdecimal</td>
+            </tr>
+            <tr>
+                <td>string.isdigit=&gt;</td>
+                <td>An example for using isdigit</td>
+            </tr>
+            <tr>
+                <td>string.isidentifier=&gt;</td>
+                <td>An example for using isidentifier</td>
+            </tr>
+            <tr>
+                <td>string.islower=&gt;</td>
+                <td>An example for using islower</td>
+            </tr>
+            <tr>
+                <td>string.isnumeric=&gt;</td>
+                <td>An example for using isnumeric</td>
+            </tr>
+            <tr>
+                <td>string.isprintable=&gt;</td>
+                <td>An example for using isprintable</td>
+            </tr>
+            <tr>
+                <td>string.isspace=&gt;</td>
+                <td>An example for using isspace</td>
+            </tr>
+            <tr>
+                <td>string.istitle=&gt;</td>
+                <td>An example for using istitle</td>
+            </tr>
+            <tr>
+                <td>string.isupper=&gt;</td>
+                <td>An example for using isupper</td>
+            </tr>
+            <tr>
+                <td>string.join=&gt;</td>
+                <td>An example for using join</td>
+            </tr>
+            <tr>
+                <td>string.ljust=&gt;</td>
+                <td>An example for using ljust</td>
+            </tr>
+            <tr>
+                <td>string.lower=&gt;</td>
+                <td>An example for using lower</td>
+            </tr>
+            <tr>
+                <td>string.lstrip=&gt;</td>
+                <td>An example for using lstrip</td>
+            </tr>
+            <tr>
+                <td>string.maketrans=&gt;</td>
+                <td>An example for using maketrans</td>
+            </tr>
+            <tr>
+                <td>string.partition=&gt;</td>
+                <td>An example for using partition</td>
+            </tr>
+            <tr>
+                <td>string.replace=&gt;</td>
+                <td>An example for using replace</td>
+            </tr>
+            <tr>
+                <td>string.rfind=&gt;</td>
+                <td>An example for using rfind</td>
+            </tr>
+            <tr>
+                <td>string.rindex=&gt;</td>
+                <td>An example for using rindex</td>
+            </tr>
+            <tr>
+                <td>string.rpartition=&gt;</td>
+                <td>An example for using rpartition</td>
+            </tr>
+            <tr>
+                <td>string.rsplit=&gt;</td>
+                <td>An example for using rsplit</td>
+            </tr>
+            <tr>
+                <td>string.split=&gt;</td>
+                <td>An example for using split</td>
+            </tr>
+            <tr>
+                <td>string.splitlines=&gt;</td>
+                <td>An example for using splitlines</td>
+            </tr>
+            <tr>
+                <td>string.startswith=&gt;</td>
+                <td>An example for using startswith</td>
+            </tr>
+            <tr>
+                <td>string.swapcase=&gt;</td>
+                <td>An example for using swapcase</td>
+            </tr>
+            <tr>
+                <td>string.title=&gt;</td>
+                <td>An example for using title</td>
+            </tr>
+            <tr>
+                <td>string.translate=&gt;</td>
+                <td>An example for using translate</td>
+            </tr>
+            <tr>
+                <td>string.upper=&gt;</td>
+                <td>An example for using upper</td>
+            </tr>
+            <tr>
+                <td>string.zfill=&gt;</td>
+                <td>An example for using zfill</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>list methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>.append</td>
+                <td>Adds an element at the end of the list</td>
+            </tr>
+            <tr>
+                <td>.clear</td>
+                <td>Removes all the elements from the list</td>
+            </tr>
+            <tr>
+                <td>.copy</td>
+                <td>Returns a copy of the list</td>
+            </tr>
+            <tr>
+                <td>.count</td>
+                <td>Returns the number of elements with the specified value</td>
+            </tr>
+            <tr>
+                <td>.extend</td>
+                <td>Add the elements of a list (or any iterable), to the end of the current list</td>
+            </tr>
+            <tr>
+                <td>.index</td>
+                <td>Returns the index of the first element with the specified value</td>
+            </tr>
+            <tr>
+                <td>.insert</td>
+                <td>Adds an element at the specified position</td>
+            </tr>
+            <tr>
+                <td>.pop</td>
+                <td>Removes the element at the specified position</td>
+            </tr>
+            <tr>
+                <td>.remove</td>
+                <td>Removes the first item with the specified value</td>
+            </tr>
+            <tr>
+                <td>.reverse</td>
+                <td>Reverses the order of the list</td>
+            </tr>
+            <tr>
+                <td>.sort</td>
+                <td>Sorts the list</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>list methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>list.append=&gt;</td>
+                <td>An example for using append</td>
+            </tr>
+            <tr>
+                <td>list.clear=&gt;</td>
+                <td>An example for using clear</td>
+            </tr>
+            <tr>
+                <td>list.copy=&gt;</td>
+                <td>An example for using copy</td>
+            </tr>
+            <tr>
+                <td>list.count=&gt;</td>
+                <td>An example for using count</td>
+            </tr>
+            <tr>
+                <td>list.extend=&gt;</td>
+                <td>An example for using extend</td>
+            </tr>
+            <tr>
+                <td>list.index=&gt;</td>
+                <td>An example for using index</td>
+            </tr>
+            <tr>
+                <td>list.insert=&gt;</td>
+                <td>An example for using insert</td>
+            </tr>
+            <tr>
+                <td>list.pop=&gt;</td>
+                <td>An example for using pop</td>
+            </tr>
+            <tr>
+                <td>list.remove=&gt;</td>
+                <td>An example for using remove</td>
+            </tr>
+            <tr>
+                <td>list.reverse=&gt;</td>
+                <td>An example for using reverse</td>
+            </tr>
+            <tr>
+                <td>list.sort=&gt;</td>
+                <td>An example for using sort</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_1</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_2</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_3</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_4</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_5</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>sets methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>.add</td>
+                <td>Adds an element to the set</td>
+            </tr>
+            <tr>
+                <td>.clear</td>
+                <td>Removes all the elements from the set</td>
+            </tr>
+            <tr>
+                <td>.copy</td>
+                <td>Returns a copy of the set</td>
+            </tr>
+            <tr>
+                <td>.difference</td>
+                <td>Returns a set containing the difference between two or more sets</td>
+            </tr>
+            <tr>
+                <td>.difference_update</td>
+                <td>Removes the items in this set that are also included in another, specified set</td>
+            </tr>
+            <tr>
+                <td>.discard</td>
+                <td>Remove the specified item</td>
+            </tr>
+            <tr>
+                <td>.intersection</td>
+                <td>Returns a set, that is the intersection of two other sets</td>
+            </tr>
+            <tr>
+                <td>.intersection_update</td>
+                <td>Removes the items in this set that are not present in other, specified set(s)</td>
+            </tr>
+            <tr>
+                <td>.isdisjoint</td>
+                <td>Returns whether two sets have a intersection or not</td>
+            </tr>
+            <tr>
+                <td>.issubset</td>
+                <td>Returns whether another set contains this set or not</td>
+            </tr>
+            <tr>
+                <td>.issuperset</td>
+                <td>Returns whether this set contains another set or not</td>
+            </tr>
+            <tr>
+                <td>.pop</td>
+                <td>Removes the specified element</td>
+            </tr>
+            <tr>
+                <td>.remove</td>
+                <td>Removes the specified element</td>
+            </tr>
+            <tr>
+                <td>.symmetric_difference</td>
+                <td>Returns a set with the symmetric differences of two sets</td>
+            </tr>
+            <tr>
+                <td>.symmetric_difference_update</td>
+                <td>inserts the symmetric differences from this set and another</td>
+            </tr>
+            <tr>
+                <td>.union</td>
+                <td>Return a set containing the union of sets</td>
+            </tr>
+            <tr>
+                <td>.update</td>
+                <td>Update the set with the union of this set and others</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>sets methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sets.add=&gt;</td>
+                <td>An example for using add</td>
+            </tr>
+            <tr>
+                <td>sets.clear=&gt;</td>
+                <td>An example for using clear</td>
+            </tr>
+            <tr>
+                <td>sets.copy=&gt;</td>
+                <td>An example for using copy</td>
+            </tr>
+            <tr>
+                <td>sets.difference=&gt;_1</td>
+                <td>An example for using difference</td>
+            </tr>
+            <tr>
+                <td>sets.difference=&gt;_2</td>
+                <td>An example for using difference</td>
+            </tr>
+            <tr>
+                <td>sets.difference_update=&gt;</td>
+                <td>An example for using difference_update</td>
+            </tr>
+            <tr>
+                <td>sets.discard=&gt;</td>
+                <td>An example for using discard</td>
+            </tr>
+            <tr>
+                <td>sets.intersection=&gt;_1</td>
+                <td>An example for using intersection</td>
+            </tr>
+            <tr>
+                <td>sets.intersection=&gt;_2</td>
+                <td>An example for using intersection</td>
+            </tr>
+            <tr>
+                <td>sets.intersection_update=&gt;_1</td>
+                <td>An example for using intersection_update</td>
+            </tr>
+            <tr>
+                <td>sets.intersection_update=&gt;_2</td>
+                <td>An example for using intersection_update</td>
+            </tr>
+            <tr>
+                <td>sets.isdisjoint=&gt;_1</td>
+                <td>An example for using isdisjoint</td>
+            </tr>
+            <tr>
+                <td>sets.isdisjoint=&gt;_2</td>
+                <td>An example for using isdisjoint</td>
+            </tr>
+            <tr>
+                <td>sets.sets.issubset=&gt;_1</td>
+                <td>An example for using issubset</td>
+            </tr>
+            <tr>
+                <td>sets.issubset=&gt;_2</td>
+                <td>An example for using issubset</td>
+            </tr>
+            <tr>
+                <td>sets.issuperset=&gt;_1</td>
+                <td>An example for using issuperset</td>
+            </tr>
+            <tr>
+                <td>sets.issuperset=&gt;_2</td>
+                <td>An example for using issuperset</td>
+            </tr>
+            <tr>
+                <td>sets.pop=&gt;</td>
+                <td>An example for using pop</td>
+            </tr>
+            <tr>
+                <td>sets.remove=&gt;</td>
+                <td>An example for using remove</td>
+            </tr>
+            <tr>
+                <td>sets.symmetric_difference=&gt;</td>
+                <td>An example for using symmetric_difference</td>
+            </tr>
+            <tr>
+                <td>sets.symmetric_difference_update=&gt;</td>
+                <td>An example for using symmetric_difference_update</td>
+            </tr>
+            <tr>
+                <td>sets.union=&gt;_1</td>
+                <td>An example for using union</td>
+            </tr>
+            <tr>
+                <td>sets.union=&gt;_2</td>
+                <td>An example for using union</td>
+            </tr>
+            <tr>
+                <td>sets.update=&gt;</td>
+                <td>An example for using update</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>dictionary methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>.clear</td>
+                <td>Removes all the elements from the dictionary</td>
+            </tr>
+            <tr>
+                <td>.copy</td>
+                <td>Returns a copy of the dictionary</td>
+            </tr>
+            <tr>
+                <td>.fromkeys</td>
+                <td>Returns a dictionary with the specified keys and values</td>
+            </tr>
+            <tr>
+                <td>.get</td>
+                <td>Returns the value of the specified key</td>
+            </tr>
+            <tr>
+                <td>.items</td>
+                <td>Returns a list containing the a tuple for each key value pair</td>
+            </tr>
+            <tr>
+                <td>.keys</td>
+                <td>Returns a list containing the dictionary&#39;s keys</td>
+            </tr>
+            <tr>
+                <td>.pop</td>
+                <td>Removes the element with the specified key</td>
+            </tr>
+            <tr>
+                <td>.popitem</td>
+                <td>Removes the last inserted key-value pai</td>
+            </tr>
+            <tr>
+                <td>.setdefault</td>
+                <td>Returns the value of the specified key. If the key does not exist: insert the key, with the
+                    specified value</td>
+            </tr>
+            <tr>
+                <td>.update</td>
+                <td>Updates the dictionary with the specified key-value pairs</td>
+            </tr>
+            <tr>
+                <td>.values</td>
+                <td>Returns a list of all the values in the dictionary</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>dictionary methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dictionary.clear=&gt;</td>
+                <td>An example for using clear</td>
+            </tr>
+            <tr>
+                <td>dictionary.copy=&gt;</td>
+                <td>An example for using copy</td>
+            </tr>
+            <tr>
+                <td>dictionary.fromkeys=&gt;</td>
+                <td>An example for using fromkeys</td>
+            </tr>
+            <tr>
+                <td>dictionary.get=&gt;</td>
+                <td>An example for using get</td>
+            </tr>
+            <tr>
+                <td>dictionary.items=&gt;</td>
+                <td>An example for using items</td>
+            </tr>
+            <tr>
+                <td>dictionary.keys=&gt;</td>
+                <td>An example for using keys</td>
+            </tr>
+            <tr>
+                <td>dictionary.pop=&gt;</td>
+                <td>An example for using pop</td>
+            </tr>
+            <tr>
+                <td>dictionary.popitem=&gt;</td>
+                <td>An example for using popitem</td>
+            </tr>
+            <tr>
+                <td>dictionary.setdefault=&gt;</td>
+                <td>An example for using setdefault</td>
+            </tr>
+            <tr>
+                <td>dictionary.update=&gt;</td>
+                <td>An example for using update</td>
+            </tr>
+            <tr>
+                <td>dictionary.values=&gt;</td>
+                <td>An example for using values</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>tuple methods code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>.count</td>
+                <td>Returns the number of times a specified value occurs in a tuple</td>
+            </tr>
+            <tr>
+                <td>.index</td>
+                <td>Searches the tuple for a specified value and returns the position of where it was found</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>tuple methods code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>tuple.count=&gt;</td>
+                <td>An example for using count</td>
+            </tr>
+            <tr>
+                <td>tuple.index=&gt;</td>
+                <td>An example for using index</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>for loop code examples</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>for=&gt;</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;through_a_string</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;break_statement</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;continue_statement</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;range_function_1</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;range_function_2</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;range_function_3</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;for_else</td>
+                <td>An example for using for</td>
+            </tr>
+            <tr>
+                <td>for=&gt;for_else</td>
+                <td>An example for using for</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>while loop code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>while</td>
+                <td>while Statements</td>
+            </tr>
+            <tr>
+                <td>while_els</td>
+                <td>while Statements</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>while loop code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>while=&gt;</td>
+                <td>while Statements</td>
+            </tr>
+            <tr>
+                <td>while=&gt;break_statement</td>
+                <td>while Statements</td>
+            </tr>
+            <tr>
+                <td>while=&gt;continue_statement</td>
+                <td>while Statements</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>if/else statement code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>if</td>
+                <td>if Statements</td>
+            </tr>
+            <tr>
+                <td>ifelif</td>
+                <td>if/else if Statements</td>
+            </tr>
+            <tr>
+                <td>ifelifelse</td>
+                <td>if/else if/else Statements</td>
+            </tr>
+            <tr>
+                <td>ifelse</td>
+                <td>if/else Statements</td>
+            </tr>
+            <tr>
+                <td>ifshort</td>
+                <td>ifshort Statements</td>
+            </tr>
+            <tr>
+                <td>else</td>
+                <td>else Statements</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>class code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>class=&gt;</td>
+                <td>python class</td>
+            </tr>
+            <tr>
+                <td><strong>init</strong>=&gt;</td>
+                <td>class <strong>init</strong> method</td>
+            </tr>
+            <tr>
+                <td><strong>iter</strong>=&gt;</td>
+                <td>class <strong>iter</strong> method</td>
+            </tr>
+            <tr>
+                <td><strong>next</strong>=&gt;</td>
+                <td>class <strong>next</strong> method</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>class code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>class=&gt;_1</td>
+                <td>oop inheritance example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;inheritance_1</td>
+                <td>oop inheritance example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;inheritance_2</td>
+                <td>oop inheritance example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;with_attribute_1</td>
+                <td>class with attribute example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;with_attribute_2</td>
+                <td>class with attribute example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;with_attribute_3</td>
+                <td>class with attribute example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;with_method_1</td>
+                <td>class with method example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;with_method_2</td>
+                <td>class with method example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;encapsulation</td>
+                <td>class encapsulation example</td>
+            </tr>
+            <tr>
+                <td>class=&gt;polymorphism</td>
+                <td>class polymorphism example</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>import code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>import=&gt;</td>
+                <td>import module</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>List Comprehensions code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>comp=&gt;</td>
+                <td>List Comprehensions</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>List Comprehensions code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>list.comp=&gt;_1</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_2</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_3</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_4</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+            <tr>
+                <td>list.comp=&gt;_5</td>
+                <td>An example for using list comprehension</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>lambda code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lambda</td>
+                <td>A lambda function can take any number of arguments, but can only have one expression.</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>function code snippets</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>def=&gt;</td>
+                <td>Defining Function</td>
+            </tr>
+            <tr>
+                <td>def=&gt;with_default_value</td>
+                <td>Defining Function wqith default values</td>
+            </tr>
+            <tr>
+                <td>function=&gt;</td>
+                <td>Defining Function</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>file code examples</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>file=&gt;openFile</td>
+                <td>open a file</td>
+            </tr>
+            <tr>
+                <td>file=&gt;openFileReadLine</td>
+                <td>Read one line of the file</td>
+            </tr>
+            <tr>
+                <td>file=&gt;writeExistFile</td>
+                <td>Write to an Existing File</td>
+            </tr>
+            <tr>
+                <td>file=&gt;writeOwerWrite</td>
+                <td>Open a file and overwrite the content</td>
+            </tr>
+            <tr>
+                <td>file=&gt;createFileIfDoesNotExist</td>
+                <td>Create a new file if it does not exist</td>
+            </tr>
+            <tr>
+                <td>file=&gt;createFile</td>
+                <td>Create a new file</td>
+            </tr>
+            <tr>
+                <td>file=&gt;deleteFile</td>
+                <td>delete a file</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="license">License</h2>
+    <p>This project is published under MIT License. Read more <a href="./LICENSE.html">here</a></p>
+    <h2 id="issues">Issues</h2>
+    <p>If you find any issues, please create them <a
+            href="https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues">here</a></p>
 </body>
+
 </html>
