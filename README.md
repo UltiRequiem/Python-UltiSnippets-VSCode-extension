@@ -598,4 +598,4 @@ This project is published under MIT License. Read more [here](./LICENSE)
 
 ## Issues
 
-If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues)# python-snippets
+If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues).
