@@ -2,9 +2,6 @@
 
 This extension will contains a lot of Python Snippets for VSCode.
 
-## Source Code
-
-Source code can be found [here](https://github.com/vaisakh-cob/pythonic-snippets.git)
 
 ## Snippets
 
@@ -31,4 +28,4 @@ This project is published under MIT License. Read more [here](./LICENSE)
 
 ## Issues
 
-If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues)
+If you find any issues, please create them [here](https://github.com/EliazBobadilla/Python-UltiSnippets-VSCode-Extension/issues)# python-snippets
