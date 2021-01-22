@@ -5,6 +5,8 @@ This extension contains a lot of Useful Python Snippets for VSCode.
 
 ![](img/python.gif)
 
+This Extension has more than 1000 of the most used snippets by python developers. If you want to have more information about each snippet you can go to the [official page of this extension](https://eliazbobadilla.github.io/Python-UltiSnippets-VSCode-Extension).
+
 ## Snippets
 
 | Snippet Shorcut  |              Snippet Description               |
