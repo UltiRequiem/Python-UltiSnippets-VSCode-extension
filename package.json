@@ -2,7 +2,7 @@
     "name": "python-ultisnippets",
     "displayName": "Python UltiSnippets",
     "description": "A set of Python snippets for VSCode",
-    "icon": "img/logo.png",
+    "icon": "img/icon.png",
     "version": "1.0.0",
     "engines": {
       "vscode": "^1.35.0"
@@ -18,7 +18,7 @@
     "categories": [
       "Snippets"
     ],
-    "publisher": "Eliaz Bobadilla",
+    "publisher": "eliazbobadilladev",
     "keywords": [
       "snippets",
       "python",
