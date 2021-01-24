@@ -3,7 +3,7 @@
     "displayName": "Python UltiSnippets",
     "description": "A set of Python snippets for VSCode",
     "icon": "img/icon.png",
-    "version": "2.0.6",
+    "version": "2.7.0",
     "engines": {
       "vscode": "^1.35.0"
     },
